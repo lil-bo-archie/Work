@@ -1,0 +1,50 @@
+body {
+    /* background-color: aqua; */
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 1%;
+    background-image: url(background1.png);
+}
+
+p {
+ font-family: monospace;
+ border: white;
+ background-color: #1E1E1E;
+ color: white;
+ 
+}
+a {
+ color: #E79140;
+ text-decoration: none;
+
+}
+textarea
+a:hover{
+    color: #E79140;
+ text-decoration: underline;
+
+}
+.box{
+    padding: 10px;
+    align-content: center;
+    border: 2px solid black;
+    background-color: #1E1E1E;
+    font-family: monospace;
+    color: white;
+}   
+/* this is for the thumbnail images */
+.crop-img{
+    max-height:150px;
+    max-width:90%;
+    padding-top: 10%;
+        padding-left: 10%;
+
+  }
+  
+  /* this is for the big main image */
+  .large-img{
+    max-width:90%;
+    padding-left: 10%;
+    padding-top: 10%;
+  }
+  
